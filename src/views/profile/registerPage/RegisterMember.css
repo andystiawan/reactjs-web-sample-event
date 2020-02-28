@@ -1,0 +1,93 @@
+.container-content {
+  position: relative;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  background-color: #008C9C;
+}
+
+.container-register {
+  max-width: 1370px;
+}
+
+.container-col-md {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-text-content {
+  margin-top: 200px;
+  margin-left: 31px;
+  font-size: 80px;
+  color: white;
+}
+
+.container-form-content {
+  background: white;
+  min-height: 600px;
+  border-radius: 25px;
+  margin-top: 29px;
+  margin-right: 12px;
+}
+
+.container-form-content-register {
+  background: white;
+  min-height: 380px;
+  border-radius: 25px;
+  margin-top: 138px;
+  margin-right: 12px;
+}
+
+.container-form-text {
+  padding-top: 18px;
+  padding-bottom: 24px;
+}
+
+.text-form-signup {
+  font-size: 32px;
+  text-align: center;
+  color: #008C9C;
+}
+
+.fields-form-signup {
+  margin-bottom: 12px;
+}
+
+.form-label-text {
+  font-size: 20px;
+  color: #008C9C;
+  padding-top: 7px;
+  margin-left: 52px;
+}
+
+.input-form-register {
+  width: 92%;
+  border: none;
+  background: #EFEFEF;
+  border-radius: 22px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 25px;
+  padding-right: 23px;
+  font-size: 20px;
+  color: #8D8D8D;
+}
+
+input[type=text]:focus, input[type=password]:focus, button:focus {
+    outline: none;
+}
+
+.btn-form-signup {
+  width: 764px;
+  text-align: center;
+  margin-left: 52px;
+  margin-right: 52px;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  border-radius: 22px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 20px;
+  background: #008C9C;
+  color: white;
+}

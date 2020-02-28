@@ -1,0 +1,113 @@
+.recommendContainerDesign {
+  background-color: #EFEFEF;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  padding-right: 60px;
+  padding-left: 60px
+}
+
+.recommendedContainerItem {
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.recommendedContainerTop {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 10px;
+}
+
+.recommendedImageItem {
+  width: 100%;
+  height: 190px;
+  border-radius: 20px;
+}
+
+.recommendedButtonItem {
+  border: none;
+  background: #5CEAE3;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 16px;
+  position: absolute;
+  left: 33%;
+  top: 182px;
+}
+
+.recommendedButtonItem > p {
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.recommendedTextDesign > P {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #5CEAE3;
+}
+
+.recommendedContainerLink {
+  margin-top: 14px;
+}
+
+.recommendedContainerLink > a:hover {
+  text-decoration: none;
+}
+
+.recommendedImageLink {
+  float: right;
+  padding-top: 4px;
+  padding-right: 22px;
+  height: 22px;
+  width: 54px;
+  margin: 0;
+}
+
+.recommendedLinkDesign {
+  font-weight: bold;
+  margin-right: 12px;
+  color: #5CEAE3;
+  margin-bottom: 0px;
+}
+
+.tabContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.recommendedImageText {
+  float: left;
+  margin-right: 16px;
+}
+
+.FindContainerLink {
+  font-size: 21px;
+}
+
+.FindContainerLink > a:link {
+  color: grey;
+}
+
+/* visited link */
+.FindContainerLink > a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+.FindContainerLink > a:hover {
+  color: #008C9C;
+  text-decoration: none;
+}
+
+/* selected link */
+.FindContainerLink > a:active {
+  color: #008C9C;
+}

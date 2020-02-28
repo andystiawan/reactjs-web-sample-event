@@ -1,0 +1,52 @@
+#contentProfile {
+  background-image: url(../img/Background-Register.png);
+  width: 100%;
+  height: 657px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contentProfile2 {
+  background-image: url(../img/Background-Login.png);
+  width: 100%;
+  height: 657px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contentInputContainer {
+  width: 100%;
+  height: 48px;
+  margin-top: 6px;
+}
+
+.contentFieldsetContainer {
+  border-radius: 2px;
+  height: 100%;
+}
+
+.inputContentDesign {
+  font-size: 12px;
+  height: 24px;
+  width: 98%;
+  border: none;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.inputContentDesign:focus {
+	outline: none;
+}
+
+.contentLegendDesign {
+  font-size: 10px;
+  width: auto;
+  margin-left: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-bottom: 0px;
+}
